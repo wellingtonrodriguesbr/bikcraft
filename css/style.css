@@ -11,3 +11,6 @@
 
 /* Styles Home */
 @import "./home/home.css";
+
+/* Styles Bikes */
+@import "./bikes/bikes-list.css";

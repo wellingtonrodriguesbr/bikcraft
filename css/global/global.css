@@ -24,6 +24,14 @@ img {
   display: block;
 }
 
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+
+span {
+  color: var(--yellow-primary);
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
