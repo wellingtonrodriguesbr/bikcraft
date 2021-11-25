@@ -24,8 +24,6 @@
   display: inline-block;
   font-size: 18px;
   position: relative;
-  font-family: "Poppins";
-  font-weight: 400;
 }
 
 .header__menu__links a::after {
@@ -54,6 +52,7 @@
     border-radius: 4px;
     font-size: 14px;
     transition: 0.3s ease;
+    padding: 4px 16px;
   }
 
   .header__menu__links a:hover {
@@ -62,5 +61,6 @@
 
   .header__menu__links a:after {
     display: none;
+    
   }
 }

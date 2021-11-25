@@ -1,46 +1,67 @@
 .h1 {
-  font-size: 64px;
-  line-height: 74px;
-  font-family: "Poppins";
+  font-size: 4rem;
+  line-height: 4.625rem;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 .h2 {
-  font-size: 48px;
-  line-height: 58px;
-  font-family: "Poppins";
+  font-size: 3rem;
+  line-height: 3.625rem;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 .h3 {
-  font-size: 36px;
-  line-height: 46px;
-  font-family: "Poppins";
+  font-size: 2.25rem;
+  line-height: 2.875rem;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 .h4 {
-  font-size: 24px;
-  line-height: 34px;
-  font-family: "Poppins";
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 .paragraph {
-  font-size: 24px;
-  line-height: 34px;
-  font-family: "Roboto";
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
+}
+
+.boldParagraph {
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+@media (max-width: 960px) {
+  .h1 {
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+
+  .paragraph,
+  .boldParagraph {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (max-width: 800px) {
   .h1 {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
   }
 
-  .paragraph {
-    font-size: 14px;
-    line-height: 24px;
+  .paragraph,
+  .boldParagraph {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 }
