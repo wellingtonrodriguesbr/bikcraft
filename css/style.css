@@ -11,6 +11,7 @@
 
 /* Styles Home */
 @import "./home/home.css";
+@import "./home/technology.css";
 
 /* Styles Bikes */
 @import "./bikes/bikes-list.css";
