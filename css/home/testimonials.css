@@ -1,0 +1,34 @@
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--yellow-secondary);
+}
+
+.testimonials img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: none;
+}
+
+.testimonial-content {
+  padding: 40px 40px 80px 80px;
+  align-self: end;
+}
+
+.testimonial-content p {
+  padding: 1rem 0;
+  font-weight: 600;
+  font-style: italic;
+  position: relative;
+}
+
+.testimonials p:first-child::before,
+.testimonials p:first-child::after {
+  content: "“";
+  font-size: 5rem;
+  opacity: 0.2;
+  position: absolute;
+  left: -50px;
+  top: 0;
+}
