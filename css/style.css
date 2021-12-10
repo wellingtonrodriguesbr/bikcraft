@@ -13,6 +13,7 @@
 @import "./home/home.css";
 @import "./home/technology.css";
 @import "./home/partners.css";
+@import "./home/testimonials.css";
 
 /* Styles Bikes */
 @import "./bikes/bikes-list.css";
