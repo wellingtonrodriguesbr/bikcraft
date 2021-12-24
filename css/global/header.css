@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--black-primary);
+  background-color: var(--black-secondary);
 }
 
 .header__menu {
@@ -61,6 +61,5 @@
 
   .header__menu__links a:after {
     display: none;
-    
   }
 }

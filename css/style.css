@@ -15,5 +15,8 @@
 @import "./home/partners.css";
 @import "./home/testimonials.css";
 
+/* Styles Insurance */
+@import "./insurance/insurance.css";
+
 /* Styles Bikes */
 @import "./bikes/bikes-list.css";

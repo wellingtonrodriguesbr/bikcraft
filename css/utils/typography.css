@@ -47,6 +47,14 @@
   font-weight: 600;
 }
 
+.gold {
+  color: var(--yellow-secondary);
+}
+
+.silver {
+  color: var(--gray-primary);
+}
+
 @media (max-width: 960px) {
   .h1 {
     font-size: 3rem; /* 48px */
