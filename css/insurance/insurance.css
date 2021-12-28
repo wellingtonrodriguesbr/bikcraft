@@ -3,7 +3,7 @@
 }
 
 .insurance {
-  padding: 60px 1.25rem;
+  padding: 60px 1.25rem 120px 1.25rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -17,8 +17,7 @@
 
 .insurance-item {
   padding: 32px 32px 32px 60px;
-  box-shadow: 0 20px 10px -10px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-columns: 1fr auto;
 }
@@ -49,10 +48,6 @@
 
 .insurance-item:last-child {
   padding: 32px 32px 32px 60px;
-  box-shadow: 0 20px 10px -10px rgba(0, 0, 0, 0.2);
-  border-right: 1px solid rgba(0, 0, 0, 0.6);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
-  border-left: 1px solid rgba(0, 0, 0, 0.6);
   border-top: 8px solid var(--yellow-primary);
 }
 

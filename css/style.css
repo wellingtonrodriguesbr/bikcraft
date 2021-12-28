@@ -9,6 +9,9 @@
 /* Styles Header */
 @import "./global/header.css";
 
+/* Styles Footer */
+@import "./global/footer.css";
+
 /* Styles Home */
 @import "./home/home.css";
 @import "./home/technology.css";

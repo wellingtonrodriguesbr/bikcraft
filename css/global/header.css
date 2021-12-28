@@ -48,7 +48,7 @@
   }
 
   .header__menu__links a {
-    background-color: var(--black-secondary);
+    background-color: var(--black-primary);
     border-radius: 4px;
     font-size: 14px;
     transition: 0.3s ease;
