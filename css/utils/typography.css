@@ -33,6 +33,13 @@
   font-weight: 400;
 }
 
+.paragraph-2 {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
 .boldParagraph {
   font-size: 1.5rem; /* 24px */
   line-height: 2.125rem; /* 34px */

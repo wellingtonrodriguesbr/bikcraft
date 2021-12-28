@@ -1,5 +1,5 @@
 main {
-  background-color: var(--black-secondary);
+  background-color: var(--black-primary);
   color: var(--white-primary);
   box-shadow: inset 0 -120px var(--white-primary);
 }
