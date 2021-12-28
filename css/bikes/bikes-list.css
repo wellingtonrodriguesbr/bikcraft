@@ -26,17 +26,18 @@ article.container {
 .bikes-list h3 {
   display: flex;
   align-items: center;
+  color: var(--black-secondary);
   gap: 4px;
 }
 
 .bikes-list h3::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 12px;
   height: 8px;
   border-radius: 2px;
   background: var(--yellow-primary);
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .bikes-list a:hover h3::before {
