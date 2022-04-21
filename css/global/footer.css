@@ -51,6 +51,24 @@ p {
   gap: 32px;
 }
 
+.copy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  width: 100%;
+  text-align: center;
+}
+
+.copy button {
+  cursor: pointer;
+  border: none;
+  padding: 16px;
+  margin-bottom: 2rem;
+  font-size: 0;
+  background-color: #222;
+}
+
 @media (max-width: 800px) {
   .footer > img {
     display: none;
