@@ -8,6 +8,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
+  position: relative;
 }
 
 .insurance h2 {
@@ -17,10 +18,12 @@
 
 .insurance-item {
   display: grid;
+  margin-top: 2rem;
+  border-radius: 4px;
   background-color: var(--black-primary);
   grid-template-columns: 1fr auto;
   padding: 32px 32px 32px 60px;
-  border-top: 8px solid var(--yellow-primary);
+  border: 1px solid var(--yellow-primary);
 }
 
 .insurance-item p {
@@ -49,11 +52,33 @@
 
 .insurance-item:last-child {
   padding: 32px 32px 32px 60px;
-  border-top: none;
+  border: none;
 }
 
 .insurance-item button {
   align-self: center;
+}
+
+.item-gold {
+  position: relative;
+}
+
+.recommended {
+  position: absolute;
+  border-radius: 4px;
+  padding: 8px 24px;
+  background-color: var(--yellow-primary);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 0;
+  box-shadow: 0 0 20px -5px rgba(255, 255, 0, 0.25);
+}
+
+.recommended p {
+  color: var(--black-secondary);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 @media (max-width: 800px) {

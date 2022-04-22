@@ -57,7 +57,7 @@ p {
   margin-bottom: 2rem;
   object-fit: contain;
   font-size: 0;
-  background-color: #222;
+  background-color: var(--black-secondary);
   grid-column: 2 / 2;
 }
 
