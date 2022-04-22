@@ -15,7 +15,7 @@ function scrollToTop() {
   });
 }
 
-yearFooter.innerHTML = new Date().getFullYear();
+yearFooter.innerText = new Date().getFullYear();
 
 btnMobile.addEventListener("click", toggleModal);
 btnScrollToTop.addEventListener("click", scrollToTop);
