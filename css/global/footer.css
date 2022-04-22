@@ -92,4 +92,8 @@ p {
   .footer {
     grid-template-columns: 1fr;
   }
+
+  .copy {
+    flex-direction: column;
+  }
 }
