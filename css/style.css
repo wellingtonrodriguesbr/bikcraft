@@ -23,6 +23,7 @@
 
 /* Styles Bikes */
 @import "./bikes/bikes-list.css";
+@import "./bikes/bikes-section.css";
 
 /* Styles section Terms */
 @import "./terms/terms.css";
