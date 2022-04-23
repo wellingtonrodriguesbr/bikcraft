@@ -34,6 +34,10 @@
   color: var(--gray-primary);
 }
 
+.color-gray-secondary {
+  color: var(--gray-secondary);
+}
+
 .color-yellow {
   color: var(--yellow-primary);
 }
