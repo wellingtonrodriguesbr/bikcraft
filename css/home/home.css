@@ -15,12 +15,15 @@ main {
   padding-bottom: 200px;
 }
 
+.main__content__text > .button {
+  max-width: max-content;
+}
+
 .h1 {
   margin-bottom: 32px;
 }
 
 .paragraph {
-  color: var(--gray-primary);
   margin-bottom: 20px;
 }
 

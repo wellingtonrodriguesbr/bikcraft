@@ -10,18 +10,17 @@ body {
   font-family: sans-serif;
 }
 
-.teste {
-  height: 400px;
-  background-color: #fff;
-}
-
 ul {
   list-style: none;
 }
 
+li {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
-  color: inherit;
 }
 
 img {
@@ -35,6 +34,13 @@ img[src$=".jpg"] {
 
 span {
   color: var(--yellow-primary);
+}
+
+button {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: var(--black-secondary);
+  text-transform: uppercase;
 }
 
 .container {

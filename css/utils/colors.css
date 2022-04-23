@@ -10,4 +10,34 @@
 
   --yellow-primary: #ffbb00;
   --yellow-secondary: #f2a50c;
+
+  --yellow-gradient: linear-gradient(
+    180deg,
+    var(--yellow-primary) 0%,
+    var(--yellow-secondary) 100%
+  );
+}
+
+.color-black {
+  color: var(--black-primary);
+}
+
+.color-black-secondary {
+  color: var(--black-secondary);
+}
+
+.color-white {
+  color: var(--white-primary);
+}
+
+.color-gray {
+  color: var(--gray-primary);
+}
+
+.color-yellow {
+  color: var(--yellow-primary);
+}
+
+.color-yellow-secondary {
+  color: var(--yellow-secondary);
 }

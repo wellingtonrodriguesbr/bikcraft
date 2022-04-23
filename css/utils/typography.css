@@ -48,8 +48,8 @@
 }
 
 .font-blockquote {
-  font-size: 3rem; /* 48px */
-  line-height: 3.625rem; /* 58px */
+  font-size: 2rem; /* 48px */
+  line-height: 3rem; /* 58px */
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }

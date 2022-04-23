@@ -1,5 +1,5 @@
 .button {
-  display: inline-block;
+  display: block;
   cursor: pointer;
   padding: 16px 32px;
   background: linear-gradient(
@@ -9,9 +9,14 @@
   );
   border: none;
   border-radius: 4px;
-  box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s ease;
   max-width: max-content;
+  color: var(--black-secondary);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-weight: 600;
 }
 
 .button.secondary {
@@ -20,26 +25,40 @@
   border: 1px solid var(--gray-primary);
 }
 
-.button a {
-  color: var(--black-secondary);
-  font-size: 16px;
-  text-transform: uppercase;
-  font-family: "Poppins";
-  font-weight: 600;
+.button.secondary {
+  color: var(--gray-primary);
 }
 
-.button.secondary a {
-  color: var(--gray-primary);
+.button.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.button.arrow::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 10px;
+  background: url("../../img/icones/seta.svg") no-repeat;
+  transform: translateX(0px);
+  transition: 0.3s;
+}
+
+.button.arrow:hover::after {
+  transform: translateX(8px);
 }
 
 .button:hover {
   filter: brightness(0.8);
-  transform: scale(0.9);
 }
 
 @media (max-width: 800px) {
   .button {
     padding: 12px 18px;
+    max-width: 100%;
+    text-align: center;
   }
 
   .button a {
