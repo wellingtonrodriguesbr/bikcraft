@@ -20,6 +20,8 @@
 
 /* Styles Insurance */
 @import "./insurance/insurance.css";
+@import "./insurance/benefits.css";
+@import "./insurance/questions.css";
 
 /* Styles Bikes */
 @import "./bikes/bikes-list.css";

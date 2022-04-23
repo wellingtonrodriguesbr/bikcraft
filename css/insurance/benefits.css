@@ -1,0 +1,22 @@
+.benefits-bg {
+  background-color: var(--black-primary);
+}
+
+.benefits {
+  padding: 4rem 20px;
+}
+
+.benefits ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+  gap: 40px 80px;
+  margin-top: 4rem;
+}
+
+.benefits ul li img {
+  margin-bottom: 1rem;
+}
+
+.benefits ul li h4 {
+  margin-bottom: 0.75rem;
+}
