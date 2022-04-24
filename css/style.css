@@ -26,6 +26,7 @@
 /* Styles Bikes */
 @import "./bikes/bikes-list.css";
 @import "./bikes/bikes-section.css";
+@import "./bikes/single-bike.css";
 
 /* Styles section Terms */
 @import "./terms/terms.css";

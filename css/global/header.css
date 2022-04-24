@@ -91,6 +91,11 @@
     border-radius: 0;
   }
 
+  .header__menu__links a:hover:after {
+    width: 10%;
+    background: var(--white-primary);
+  }
+
   .btn-modal {
     display: block;
     visibility: visible;
@@ -101,6 +106,7 @@
     cursor: pointer;
     z-index: 99999;
     position: relative;
+    margin-top: 0.75rem;
   }
 
   .btn-modal::before,

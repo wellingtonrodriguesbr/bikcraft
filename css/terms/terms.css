@@ -30,3 +30,9 @@
   margin-top: 1rem;
   max-width: 85ch;
 }
+
+@media (max-width: 820px) {
+  .bg-title {
+    padding: 1rem 0;
+  }
+}

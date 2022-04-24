@@ -17,6 +17,10 @@
   padding: 60px 0;
 }
 
+.title > .paragraph {
+  max-width: 40ch;
+}
+
 .bikes-image {
   position: relative;
 }
