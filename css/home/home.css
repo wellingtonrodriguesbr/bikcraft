@@ -1,17 +1,18 @@
 #home main {
-  background-color: var(--black-primary);
+  background-color: var(--black-secondary);
   color: var(--white-primary);
-  box-shadow: inset 0 -120px var(--white-primary);
+  box-shadow: inset 0 -90px var(--white-primary);
 }
 
 .main__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
+  padding: 60px 0 0 0;
 }
 
 .main__content__text {
-  align-self: end;
+  align-self: center;
   padding-bottom: 200px;
 }
 

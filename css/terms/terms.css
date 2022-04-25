@@ -1,6 +1,6 @@
 .bg-title {
-  background-color: var(--black-primary);
-  padding: 2rem 0;
+  background-color: var(--black-secondary);
+  padding: 4rem 0;
 }
 
 .title h1 {

@@ -6,8 +6,9 @@
   background: linear-gradient(
     to right,
     var(--white-primary) 30%,
-    var(--black-primary) 30%
+    var(--black-secondary) 30%
   );
+  color: var(--white-primary);
 }
 
 .bikes {

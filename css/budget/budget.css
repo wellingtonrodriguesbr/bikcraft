@@ -1,6 +1,6 @@
 .budget-container {
   background: linear-gradient(
-    var(--black-secondary) 800px,
+    var(--black-secondary) 600px,
     var(--gray-light) 0
   );
 }
@@ -12,17 +12,19 @@
 .budget {
   display: grid;
   grid-template-columns: 5fr 7fr;
-  padding: 120px 20px;
+  padding: 0 20px 120px 20px;
 }
 
-.budget h3 {
+.budget h3,
+.budget h4 {
   text-transform: uppercase;
   position: relative;
   display: flex;
   align-items: center;
 }
 
-.budget h3::before {
+.budget h3::before,
+.budget h4::before {
   content: "";
   display: inline-block;
   width: 4px;
