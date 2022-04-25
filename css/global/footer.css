@@ -8,8 +8,12 @@
   padding: 60px 1.25rem;
 }
 
+.footer-col-1 {
+  margin-top: 0.75rem;
+}
+
 .footer-col-1 p {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .footer li {

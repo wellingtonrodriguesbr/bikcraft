@@ -79,7 +79,7 @@
     height: 0;
     z-index: 999;
     text-transform: uppercase;
-    background: var(--black-primary);
+    background: var(--black-secondary);
     top: 90px;
     right: 0;
     visibility: hidden;
@@ -97,8 +97,8 @@
     width: 100%;
     background: linear-gradient(
       90deg,
-      var(--black-secondary) 0%,
-      var(--black-primary) 100%
+      var(--black-primary) 0%,
+      var(--black-secondary) 100%
     );
     border-radius: 4px;
     font-size: 14px;
