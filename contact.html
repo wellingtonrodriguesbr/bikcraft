@@ -30,9 +30,9 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <title>Bikcraft - Bicicletas elétricas</title>
+    <title>Contato | Bikcraft</title>
   </head>
-  <body>
+  <body id="contact">
     <header class="header">
       <div class="header__menu container">
         <a href="./"><img src="./img/bikcraft.svg" alt="logo do Bikcraft" /></a>
@@ -44,18 +44,154 @@
             <li><a href="./contact.html">Contato</a></li>
           </ul>
         </nav>
+        <a class="button" href="./contact.html">Entre em contato</a>
       </div>
     </header>
-    <main class="teste"></main>
+
+    <section>
+      <div class="bg-title">
+        <div class="title container">
+          <h1 class="h1">Contato<span>.</span></h1>
+          <p class="paragraph color-gray">
+            Temos um dos melhores suportes da América latina, respondemos em até
+            24 horas.
+          </p>
+        </div>
+      </div>
+
+      <div class="contact container">
+        <section aria-label="address" class="contact-address">
+          <h4 class="h4">Loja online</h4>
+
+          <div class="address">
+            <p class="paragraph-2">Av. 11 de Novembro, 11111</p>
+            <p class="paragraph-2">Centro - São Paulo/SP</p>
+            <p class="paragraph-2">Brasil - Terra - Via Láctea</p>
+          </div>
+
+          <address>
+            <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+            <a href="mailto:assistencia@bikcraft.com"
+              >assistencia@bikcraft.com</a
+            >
+            <a href="tel:+5515999999999">+55 15 99999-9999</a>
+          </address>
+
+          <div class="contact-social">
+            <a href="#redesocial">
+              <img src="./img/redes/instagram-p.svg" alt="Instagram" />
+            </a>
+
+            <a href="#redesocial">
+              <img src="./img/redes/facebook-p.svg" alt="Facebook" />
+            </a>
+
+            <a href="#redesocial">
+              <img src="./img/redes/youtube-p.svg" alt="Youtube" />
+            </a>
+          </div>
+        </section>
+        <section aria-label="Form" class="contact-form">
+          <form class="form" action="./contact.html">
+            <div>
+              <label for="nome">Nome completo</label>
+              <input placeholder="Seu nome" type="text" name="nome" id="nome" />
+            </div>
+
+            <div>
+              <label for="telefone">Telefone</label>
+              <input
+                placeholder="(15) 99999-9999"
+                type="tel"
+                name="telefone"
+                id="telefone"
+              />
+            </div>
+            <div class="col-2">
+              <label for="email">E-mail</label>
+              <input
+                placeholder="seuemail@email.com"
+                type="email"
+                name="email"
+                id="email"
+              />
+            </div>
+
+            <div class="col-2">
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                rows="5"
+                placeholder="O que você precisa?"
+                name="mensagem"
+                id="mensagem"
+              ></textarea>
+            </div>
+            <button class="button col-2">Enviar mensagem</button>
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <section class="shops-bg">
+      <div class="shops container">
+        <h2 class="h2">Lojas locais<span>.</span></h2>
+        <div class="shop-item">
+          <img
+            src="./img/lojas/rj.jpg"
+            alt="Mapa marcando o endereço da loja local do Bikcraft no Rio de Janeiro - RJ"
+          />
+          <div class="shop-content">
+            <h3 class="h3">Rio de Janeiro</h3>
+            <div class="shop-data">
+              <p class="paragraph-2">Rua ali perto, 25</p>
+              <p class="paragraph-2">Rio de Janeiro - RJ</p>
+            </div>
+            <div class="shop-data">
+              <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
+              <a href="tel:+5521999999999">+55 21 99999-9999</a>
+            </div>
+            <p class="paragraph-2 schedule">
+              <img src="./img/icones/horario.svg" alt="" />
+              08 às 18h de seg à dom
+            </p>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <img
+            src="./img/lojas/sp.jpg"
+            alt="Mapa marcando o endereço da loja local do Bikcraft em São Paulo - SP"
+          />
+          <div class="shop-content">
+            <h3 class="h3">São Paulo</h3>
+            <div class="shop-data">
+              <p class="paragraph-2">Rua ali perto, 25</p>
+              <p class="paragraph-2">São Paulo - SP</p>
+            </div>
+            <div class="shop-data">
+              <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
+              <a href="tel:+5515999999999">+55 15 99999-9999</a>
+            </div>
+            <p class="paragraph-2 schedule">
+              <img src="./img/icones/horario.svg" alt="" />
+              08 às 18h de seg à dom
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer class="footer-bg">
+      <h1 class="footer-text-bg">BIKCRAFT</h1>
       <div class="footer container">
-        <img src="./img/bikcraft.svg" alt="Logo do bikcraft" />
+        <div>
+          <img src="./img/bikcraft.svg" alt="Logo do bikcraft" />
+        </div>
         <div class="footer-contact">
           <h3 class="h3">Contato</h3>
           <ul>
             <li class="paragraph-2">
-              <a href="tel:+5515981036058">+55 15 98103-6058</a>
+              <a href="tel:+5515999999999">+55 15 99999-9999</a>
             </li>
             <li class="paragraph-2">
               <a href="bikcraft@bikcraft.com">contato@bikcraft.com</a>
@@ -78,12 +214,12 @@
             </a>
           </div>
         </div>
-        <div class="footer-informations">
+        <div class="footer-information">
           <h3 class="h3">Informações</h3>
           <nav>
             <ul>
               <li class="paragraph-2">
-                <a href="./bicicletas.html">Bicicletas</a>
+                <a href="./bikes.html">Bicicletas</a>
               </li>
               <li class="paragraph-2">
                 <a href="./insurance.html">Seguros</a>

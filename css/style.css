@@ -5,6 +5,7 @@
 
 /* Styles Utils */
 @import "./utils/components.css";
+@import "./utils/form.css";
 
 /* Styles Header */
 @import "./global/header.css";
@@ -30,3 +31,7 @@
 
 /* Styles section Terms */
 @import "./terms/terms.css";
+
+/* Styles section Contact */
+@import "./contact/contact.css";
+@import "./contact/shops.css";

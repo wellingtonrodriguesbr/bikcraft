@@ -1,0 +1,55 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: var(--white-secondary);
+}
+
+.form label {
+  display: block;
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  margin-bottom: 4px;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"],
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--gray-light);
+  border-radius: 4px;
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  color: var(--gray-secondary);
+  background: var(--white-secondary);
+  transition: 0.3s;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form input[type="tel"]:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--yellow-primary);
+  background-color: var(--white-primary);
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.form textarea {
+  resize: none;
+}
+
+@media (max-width: 820px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .col-2 {
+    grid-column: 1;
+  }
+}
