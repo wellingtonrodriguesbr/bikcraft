@@ -68,16 +68,18 @@
 @media (max-width: 800px) {
   .bg-gradient {
     right: -40%;
-    top: 20%;
+    top: 80%;
     width: 50%;
-    height: 200px;
+    height: 100px;
+    filter: blur(200px);
   }
 
   .bg-gradient-2 {
     left: -40%;
-    top: 20%;
+    top: 40%;
     width: 50%;
-    height: 200px;
+    height: 100px;
+    filter: blur(100px);
   }
 
   .main__content {
