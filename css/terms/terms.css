@@ -5,6 +5,7 @@
 
 .title h1 {
   color: var(--white-primary);
+  max-width: 18ch;
 }
 
 .terms-bg {
@@ -12,7 +13,7 @@
 }
 
 .terms {
-  padding: 2rem 20px;
+  padding: 6rem 20px;
 }
 
 .terms > h3 {
