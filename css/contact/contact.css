@@ -1,8 +1,5 @@
-#contact {
-  background: linear-gradient(
-    var(--black-secondary) 600px,
-    var(--gray-light) 0
-  );
+.contact-bg {
+  background: var(--black-secondary);
 }
 
 #contact .bg-title {
@@ -12,7 +9,7 @@
 .contact {
   display: grid;
   grid-template-columns: 5fr 7fr;
-  padding-bottom: 4rem;
+  padding: 4rem 20px;
 }
 
 .contact-address,
