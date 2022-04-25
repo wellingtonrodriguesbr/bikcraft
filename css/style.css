@@ -35,3 +35,6 @@
 /* Styles section Contact */
 @import "./contact/contact.css";
 @import "./contact/shops.css";
+
+/* Styles section Budget */
+@import "./budget/budget.css";

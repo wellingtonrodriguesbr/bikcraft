@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft."
+    />
+    <meta property="og:title" content="Bikcraft" />
+    <meta property="og:type" content="Bikcraft" />
+    <meta property="og:url" content="http://bikcraft-eta.vercel.app/" />
+    <meta property="og:image" content="./img/bicicleta/nimbus1.jpg" />
+
+    <meta name="twitter:title" content="Bikcraft " />
+    <meta
+      name="twitter:description"
+      content=" Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft"
+    />
+    <meta name="twitter:image" content="./img/bicicleta/nimbus1.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="apple-touch-icon" href="./img/bicicleta/nimbus1.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Orçamento | Bikcraft</title>
+  </head>
+  <body id="budget">
+    <header class="header">
+      <div class="header__menu container">
+        <a href="./"><img src="./img/bikcraft.svg" alt="logo do Bikcraft" /></a>
+        <nav aria-label="primary">
+          <button class="btn-modal"></button>
+          <ul class="header__menu__links boldParagraph">
+            <li><a href="./bikes.html">Bicicletas</a></li>
+            <li><a href="./insurance.html">Seguros</a></li>
+            <li><a href="./contact.html">Contato</a></li>
+          </ul>
+        </nav>
+        <a class="button" href="./contact.html">Entre em contato</a>
+      </div>
+    </header>
+
+    <main class="budget-container">
+      <div class="bg-title">
+        <div class="title container">
+          <h1 class="h1">Orçamento<span>.</span></h1>
+          <p class="paragraph color-gray">
+            Faça um orçamento conosco, preencha os dados abaixo que iremos te
+            responder em até 24 horas. Fácil né?!
+          </p>
+        </div>
+      </div>
+
+      <form action="./" class="budget container">
+        <div class="budget-product">
+          <h3 class="3">Bikcraft ou Seguro?</h3>
+          <input type="radio" name="tipo" id="bikcraft" value="bikcraft" />
+          <label for="bikcraft">Bikcraft</label>
+
+          <input type="radio" name="tipo" id="seguro" value="seguro" />
+          <label for="seguro">Seguro</label>
+
+          <div class="budget-content" id="budget-bikcraft">
+            <h4 class="h4">Escolha a sua</h4>
+            <input type="radio" name="produto" id="nimbus" value="nimbus" />
+            <label for="nimbus"
+              >Nimbus Stark <span class="color-gray">R$ 3.279,99</span>
+            </label>
+
+            <input type="radio" name="produto" id="magic" value="magic" />
+            <label for="magic"
+              >Magic Might <span class="color-gray">R$ 2.499,99</span></label
+            >
+
+            <input type="radio" name="produto" id="nebula" value="nebula" />
+            <label for="nebula"
+              >Nebula Cosmic <span class="color-gray">R$ 4.999,99</span></label
+            >
+          </div>
+
+          <div class="budget-content" id="budget-seguro">
+            <h4 class="h4">Escolha o plano</h4>
+            <input type="radio" name="produto" id="silver" value="silver" />
+            <label for="silver"
+              >Prata<span class="color-gray">R$ 199,99</span></label
+            >
+            <input type="radio" name="produto" id="gold" value="gold" />
+            <label for="gold"
+              >Ouro<span class="color-gray">R$ 299,99</span></label
+            >
+          </div>
+        </div>
+        <div class="budget-data form">
+          <h3 class="h3 col-2">Dados pessoais</h3>
+          <div>
+            <label for="nome">Nome</label>
+            <input placeholder="Seu nome" type="text" name="nome" id="nome" />
+          </div>
+
+          <div>
+            <label for="sobrenome">Sobrenome</label>
+            <input
+              placeholder="Seu sobrenome"
+              type="text"
+              name="sobrenome"
+              id="sobrenome"
+            />
+          </div>
+
+          <div class="col-2">
+            <label for="cpf">CPF</label>
+            <input
+              placeholder="000.000.000-00"
+              type="text"
+              name="cpf"
+              id="cpf"
+            />
+          </div>
+
+          <div>
+            <label for="telefone">Telefone</label>
+            <input
+              placeholder="(15) 99999-9999"
+              type="tel"
+              name="telefone"
+              id="telefone"
+            />
+          </div>
+          <div class="col-2">
+            <label for="email">E-mail</label>
+            <input
+              placeholder="seuemail@email.com"
+              type="email"
+              name="email"
+              id="email"
+            />
+          </div>
+          <h3 class="h3 col-2">Entrega</h3>
+          <div class="col-2">
+            <label for="cep">CEP</label>
+            <input placeholder="00000-000" type="text" name="cep" id="cep" />
+          </div>
+          <div>
+            <label for="numero">Número</label>
+            <input
+              placeholder="Número"
+              type="number"
+              name="numero"
+              id="numero"
+            />
+          </div>
+          <div>
+            <label for="logradouro">Logradouro</label>
+            <input
+              placeholder="Logradouro"
+              type="text"
+              name="logradouro"
+              id="logradouro"
+            />
+          </div>
+          <div>
+            <label for="bairro">Bairro</label>
+            <input placeholder="Bairro" type="text" name="bairro" id="bairro" />
+          </div>
+          <div>
+            <label for="cidade">Cidade</label>
+            <input placeholder="Cidade" type="text" name="cidade" id="cidade" />
+          </div>
+          <div>
+            <label for="estado">Estado</label>
+            <input placeholder="UF" type="text" name="estado" id="estado" />
+          </div>
+          <butt class="button col-2">Solicitar orçamento</butt>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer-bg">
+      <h1 class="footer-text-bg">BIKCRAFT</h1>
+      <div class="footer container">
+        <div>
+          <img src="./img/bikcraft.svg" alt="Logo do bikcraft" />
+        </div>
+        <div class="footer-contact">
+          <h3 class="h3">Contato</h3>
+          <ul>
+            <li class="paragraph-2">
+              <a href="tel:+5515999999999">+55 15 99999-9999</a>
+            </li>
+            <li class="paragraph-2">
+              <a href="bikcraft@bikcraft.com">contato@bikcraft.com</a>
+            </li>
+            <li class="paragraph-2">Av. 11 de Novembro, 11111</li>
+            <li class="paragraph-2">Centro - São Paulo/SP</li>
+          </ul>
+
+          <div class="footer-social">
+            <a href="#redesocial">
+              <img src="./img/redes/instagram.svg" alt="Instagram" />
+            </a>
+
+            <a href="#redesocial">
+              <img src="./img/redes/facebook.svg" alt="Facebook" />
+            </a>
+
+            <a href="#redesocial">
+              <img src="./img/redes/youtube.svg" alt="Youtube" />
+            </a>
+          </div>
+        </div>
+        <div class="footer-information">
+          <h3 class="h3">Informações</h3>
+          <nav>
+            <ul>
+              <li class="paragraph-2">
+                <a href="./bikes.html">Bicicletas</a>
+              </li>
+              <li class="paragraph-2">
+                <a href="./insurance.html">Seguros</a>
+              </li>
+              <li class="paragraph-2"><a href="./contact.html">Contato</a></li>
+              <li class="paragraph-2">
+                <a href="./terms.html">Termos e condições</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="copy container">
+        <p class="paragraph color-gray">
+          Bikcraft <time id="year"></time> © Alguns direitos reservados.
+        </p>
+        <button class="btn-scroll-to-top">
+          <img src="/img/icones/seta-abrir.svg" alt="" />
+        </button>
+      </div>
+    </footer>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
