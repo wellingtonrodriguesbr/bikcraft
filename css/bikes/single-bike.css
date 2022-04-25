@@ -3,7 +3,9 @@
   color: var(--white-primary);
 }
 
-.title p {
+#nimbus .title p,
+#magic .title p,
+#nebula .title p {
   width: fit-content;
   font-size: 1.5rem;
   border-radius: 4px;
