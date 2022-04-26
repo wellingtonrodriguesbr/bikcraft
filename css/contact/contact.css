@@ -12,7 +12,7 @@
 .contact {
   display: grid;
   grid-template-columns: 5fr 7fr;
-  padding: 4rem 20px;
+  padding: 1rem 20px;
 }
 
 .contact-address,
