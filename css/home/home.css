@@ -68,14 +68,13 @@
 }
 
 .numbers {
-  height: 120px;
+  height: 400px;
   position: relative;
   width: 100%;
   display: grid;
   overflow-y: hidden;
   overflow-x: hidden;
   padding: 16px 0;
-  background: var(--yellow-gradient);
   margin: 8rem 0 2rem 0;
 }
 
@@ -83,7 +82,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  animation: scroll 30s linear infinite;
+  animation: scroll 60s linear infinite;
 }
 
 .slide {
@@ -105,16 +104,17 @@
 .slide h4 {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
   color: var(--black-secondary);
+  font-size: 7rem;
 }
 
 .slide h4::before,
 .slide h4::after {
   content: "";
   display: inline-block;
-  width: 8px;
-  height: 8px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   background-color: var(--black-secondary);
 }
@@ -123,6 +123,16 @@
   .numbers {
     margin: 3rem 0 1rem 0;
     height: 70px;
+  }
+
+  .slide h4 {
+    font-size: 3rem;
+  }
+
+  .slide h4::before,
+  .slide h4::after {
+    width: 0.75rem;
+    height: 0.75rem;
   }
 
   .bg-gradient {
