@@ -85,17 +85,22 @@
     z-index: 999;
     text-transform: uppercase;
     background: var(--black-secondary);
-    top: 120px;
+    top: 90px;
     right: 0;
     visibility: hidden;
     overflow: hidden;
-    transition: 0.6s;
+    transition: 0.3s;
   }
 
   .header__menu__links.active {
     height: 100%;
     overflow-y: auto;
     visibility: visible;
+    top: 120px;
+  }
+
+  .header__menu__links li:first-child a {
+    border-top: 1px solid var(--gray-secondary);
   }
 
   .header__menu__links a {
@@ -104,6 +109,7 @@
     padding: 48px 20px;
     height: 2rem;
     position: relative;
+    margin-top: 0;
     border-radius: 0;
     border-bottom: 1px solid var(--gray-secondary);
     justify-content: flex-start;
