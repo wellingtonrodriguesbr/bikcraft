@@ -62,7 +62,7 @@
 
       <form action="./" class="budget container">
         <div class="budget-product">
-          <h3 class="3">Bikcraft ou Seguro?</h3>
+          <h4 class="h4">Bikcraft ou Seguro?</h4>
           <input type="radio" name="tipo" id="bikcraft" value="bikcraft" />
           <label for="bikcraft">Bikcraft</label>
 
@@ -70,25 +70,88 @@
           <label for="seguro">Seguro</label>
 
           <div class="budget-content" id="budget-bikcraft">
-            <h4 class="h4">Escolha a sua</h4>
+            <h4 class="h4">Escolha a sua:</h4>
             <input type="radio" name="produto" id="nimbus" value="nimbus" />
             <label for="nimbus"
-              >Nimbus Stark <span class="color-gray">R$ 3.279,99</span>
+              >Nimbus Stark <span class="">R$ 3.279,99</span>
             </label>
+            <div class="budget-details">
+              <ul class="paragraph-2 color-gray">
+                <li class="color-gray">
+                  <img src="./img/icones/eletrica.svg" alt="" />
+                  Motor elétrico
+                </li>
+                <li class="color-gray">
+                  <img src="./img/icones/carbono.svg" alt="" />
+                  Fibra de carbono
+                </li>
+                <li class="color-gray">
+                  <img src="./img/icones/velocidade.svg" alt="" />
+                  50 km/h
+                </li>
+                <li class="color-gray">
+                  <img src="./img/icones/rastreador.svg" alt="" />
+                  Rastreador
+                </li>
+              </ul>
+              <img src="./img/bicicletas/nimbus.jpg" alt="" />
+            </div>
 
             <input type="radio" name="produto" id="magic" value="magic" />
             <label for="magic"
-              >Magic Might <span class="color-gray">R$ 2.499,99</span></label
+              >Magic Might <span class="">R$ 2.499,99</span></label
             >
+            <div class="budget-details">
+              <ul class="paragraph-2 color-gray">
+                <li class="color-gray">
+                  <img src="./img/icones/eletrica.svg" alt="" />
+                  Motor elétrico
+                </li>
+                <li class="color-gray">
+                  <img src="./img/icones/carbono.svg" alt="" />
+                  Fibra de carbono
+                </li>
+                <li class="color-gray">
+                  <img src="./img/icones/velocidade.svg" alt="" />
+                  45 km/h
+                </li>
+                <li class="color-gray">
+                  <img src="./img/icones/rastreador.svg" alt="" />
+                  Rastreador
+                </li>
+              </ul>
+              <img src="./img/bicicletas/magic.jpg" alt="" />
+            </div>
 
             <input type="radio" name="produto" id="nebula" value="nebula" />
             <label for="nebula"
-              >Nebula Cosmic <span class="color-gray">R$ 4.999,99</span></label
+              >Nebula Cosmic <span class="">R$ 4.999,99</span></label
             >
+            <div class="budget-details">
+              <ul class="paragraph-2 color-gray">
+                <li class="color-gray">
+                  <img src="./img/icones/eletrica.svg" alt="" />
+                  Motor elétrico
+                </li>
+                <li class="color-gray">
+                  <img src="./img/icones/carbono.svg" alt="" />
+                  Fibra de carbono
+                </li>
+                <li class="color-gray">
+                  <img src="./img/icones/velocidade.svg" alt="" />
+                  65 km/h
+                </li>
+                <li class="color-gray">
+                  <img src="./img/icones/rastreador.svg" alt="" />
+                  Rastreador
+                </li>
+              </ul>
+              <img src="./img/bicicletas/nebula.jpg" alt="" />
+            </div>
           </div>
 
           <div class="budget-content" id="budget-seguro">
-            <h4 class="h4">Escolha o plano</h4>
+            <h4 class="h4">Escolha o plano:</h4>
             <input type="radio" name="produto" id="silver" value="silver" />
             <label for="silver"
               >Prata<span class="color-gray">R$ 199,99</span></label
@@ -101,22 +164,12 @@
         </div>
         <div class="budget-data form">
           <h4 class="h4 col-2">Dados pessoais</h4>
-          <div>
-            <label for="nome">Nome</label>
+          <div class="col-2">
+            <label for="nome">Nome completo</label>
             <input placeholder="Seu nome" type="text" name="nome" id="nome" />
           </div>
 
           <div>
-            <label for="sobrenome">Sobrenome</label>
-            <input
-              placeholder="Seu sobrenome"
-              type="text"
-              name="sobrenome"
-              id="sobrenome"
-            />
-          </div>
-
-          <div class="col-2">
             <label for="cpf">CPF</label>
             <input
               placeholder="000.000.000-00"
@@ -145,9 +198,18 @@
             />
           </div>
           <h4 class="h4 col-2">Entrega</h4>
-          <div class="col-2">
+          <div>
             <label for="cep">CEP</label>
             <input placeholder="00000-000" type="text" name="cep" id="cep" />
+          </div>
+          <div class="col-1">
+            <label for="logradouro">Logradouro</label>
+            <input
+              placeholder="Logradouro"
+              type="text"
+              name="logradouro"
+              id="logradouro"
+            />
           </div>
           <div>
             <label for="numero">Número</label>
@@ -156,15 +218,6 @@
               type="number"
               name="numero"
               id="numero"
-            />
-          </div>
-          <div>
-            <label for="logradouro">Logradouro</label>
-            <input
-              placeholder="Logradouro"
-              type="text"
-              name="logradouro"
-              id="logradouro"
             />
           </div>
           <div>
@@ -179,7 +232,7 @@
             <label for="estado">Estado</label>
             <input placeholder="UF" type="text" name="estado" id="estado" />
           </div>
-          <butt class="button col-2">Solicitar orçamento</butt>
+          <button class="button col-2">Solicitar orçamento</button>
         </div>
       </form>
     </main>
