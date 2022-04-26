@@ -110,7 +110,7 @@
     var(--gray-secondary),
     var(--black-primary)
   );
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 7rem;
   height: 15rem;
