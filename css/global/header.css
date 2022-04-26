@@ -96,7 +96,7 @@
     height: 100%;
     overflow-y: auto;
     visibility: visible;
-    top: 120px;
+    top: 90px;
   }
 
   .header__menu__links li:first-child a {
