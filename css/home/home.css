@@ -106,6 +106,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  color: var(--black-secondary);
 }
 
 .slide h4::before,
@@ -115,12 +116,13 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: var(--black-primary);
+  background-color: var(--black-secondary);
 }
 
 @media (max-width: 800px) {
   .numbers {
-    margin: 2rem 0;
+    margin: 3rem 0 1rem 0;
+    height: 70px;
   }
 
   .bg-gradient {
