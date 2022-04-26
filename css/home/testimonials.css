@@ -57,6 +57,12 @@
   content: "”";
 }
 
+@media (min-width: 1400px) {
+  .testimonials img {
+    max-height: 520px;
+  }
+}
+
 @media (max-width: 820px) {
   .testimonials {
     grid-template-columns: 1fr;
@@ -78,10 +84,10 @@
 @media (max-width: 400px) {
   .testimonial-content {
     padding: 20px 50px;
-    text-align: left;
+    text-align: center;
   }
 
   .testimonials p::before {
-    left: -40px;
+    left: -20px;
   }
 }
