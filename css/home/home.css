@@ -82,7 +82,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  animation: scroll 60s linear infinite;
+  animation: scroll 60s linear alternate infinite;
 }
 
 .slide {
@@ -124,6 +124,24 @@
   height: 2rem;
   border-radius: 50%;
   background: var(--yellow-gradient);
+}
+
+.slide h4::after {
+  animation: animate 0.6s ease-out alternate infinite;
+  animation-delay: 0.3s;
+}
+
+.slide h4::before {
+  animation: animate 0.6s ease-out alternate infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-70px);
+  }
 }
 
 @media (max-width: 800px) {
