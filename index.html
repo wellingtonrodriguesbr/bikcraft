@@ -22,6 +22,7 @@
     <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
+    <link rel="preload" href="/css/style.css" as="style" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,7 +36,13 @@
   <body id="home">
     <header class="header">
       <div class="header__menu container">
-        <a href="./"><img src="./img/bikcraft.svg" alt="logo do Bikcraft" /></a>
+        <a href="./"
+          ><img
+            src="./img/bikcraft.svg"
+            width="136"
+            height="32"
+            alt="logo do Bikcraft"
+        /></a>
         <nav aria-label="primary" class="nav">
           <button class="btn-modal"></button>
           <ul class="header__menu__links boldParagraph">
@@ -61,7 +68,18 @@
           </p>
           <a class="button" href="./bikes.html">Escolha a sua</a>
         </div>
-        <img src="./img/fotos/introducao.jpg" alt="Bicicleta preta elétrica" />
+        <picture>
+          <source
+            media="(max-width: 820px)"
+            srcset="./img/bicicletas/nimbus.jpg"
+          />
+          <img
+            src="./img/fotos/introducao.jpg"
+            alt="Bicicleta preta elétrica"
+            width="1280"
+            height="1600"
+          />
+        </picture>
       </div>
     </main>
 
@@ -73,6 +91,8 @@
             <img
               src="./img/bicicletas/magic-home.jpg"
               alt="Bicicleta Magic Might na cor preta"
+              width="920"
+              height="1040"
             />
             <h3 class="h4">Magic Might</h3>
             <p class="boldParagraph">R$ 2.499,99</p>
@@ -84,6 +104,8 @@
             <img
               src="./img/bicicletas/nebula-home.jpg"
               alt="Bicicleta Nebula Cosmic na cor branca"
+              width="920"
+              height="1040"
             />
             <h3 class="h4">Nebula Cosmic</h3>
             <p class="boldParagraph">R$ 4.999,99</p>
@@ -95,6 +117,8 @@
             <img
               src="./img/bicicletas/nimbus-home.jpg"
               alt="Bicicleta Nimbus Stark na cor preta"
+              width="920"
+              height="1040"
             />
             <h3 class="h4">Nimbus Stark</h3>
             <p class="boldParagraph">R$ 3.279,99</p>
@@ -119,7 +143,12 @@
           <a href="./bikes.html">Escolha um modelo</a>
           <div class="tech-details">
             <div>
-              <img src="./img/icones/eletrica.svg" alt="Moto elétrica" />
+              <img
+                src="./img/icones/eletrica.svg"
+                alt="Moto elétrica"
+                width="32"
+                height="32"
+              />
               <h3 class="h4">Motor elétrico</h3>
               <p class="paragraph color-gray">
                 Toda Bikcraft é equipada com um motor elétrico que possui
@@ -128,7 +157,12 @@
               </p>
             </div>
             <div>
-              <img src="./img/icones/rastreador.svg" alt="Rastreador" />
+              <img
+                src="./img/icones/rastreador.svg"
+                alt="Rastreador"
+                width="32"
+                height="32"
+              />
               <h3 class="h4">Rastreador</h3>
               <p class="paragraph color-gray">
                 Sabemos o quão é preciosa é a sua Bikcraft, por isso adicionamos
@@ -141,6 +175,8 @@
           <img
             src="./img/fotos/tecnologia.jpg"
             alt="Ferramentas para criação de bicicletas"
+            width="1200"
+            height="1920"
           />
         </div>
       </div>
@@ -153,39 +189,64 @@
           <img
             src="./img/parceiros/caravan.svg"
             alt="Logo do parceiro Caravan"
+            width="140"
+            height="38"
           />
         </li>
         <li>
-          <img src="./img/parceiros/dogs.svg" alt="Logo do parceiro Dogs" />
+          <img
+            src="./img/parceiros/dogs.svg"
+            alt="Logo do parceiro Dogs"
+            width="152"
+            height="39"
+          />
         </li>
         <li>
           <img
             src="./img/parceiros/flexblog.svg"
             alt="Logo do parceiro Flexblog"
+            width="165"
+            height="38"
           />
         </li>
         <li>
-          <img src="./img/parceiros/handel.svg" alt="Logo do parceiro Handel" />
+          <img
+            src="./img/parceiros/handel.svg"
+            alt="Logo do parceiro Handel"
+            width="139"
+            height="50"
+          />
         </li>
         <li>
           <img
             src="./img/parceiros/lescone.svg"
             alt="Logo do parceiro Lescone"
+            width="208"
+            height="41"
           />
         </li>
         <li>
-          <img src="./img/parceiros/ranek.svg" alt="Logo do parceiro Ranek" />
+          <img
+            src="./img/parceiros/ranek.svg"
+            alt="Logo do parceiro Ranek"
+            width="149"
+            height="36"
+          />
         </li>
         <li>
           <img
             src="./img/parceiros/surfbot.svg"
             alt="Logo do parceiro Surfbot"
+            width="200"
+            height="49"
           />
         </li>
         <li>
           <img
             src="./img/parceiros/wildbeast.svg"
             alt="Logo do parceiro Wildbeast"
+            width="196"
+            height="34"
           />
         </li>
       </ul>
@@ -196,6 +257,8 @@
         <img
           src="./img/fotos/depoimento.jpg"
           alt="Pessoa andando com sua Bikcraft"
+          width="1560"
+          height="1360"
         />
       </div>
       <div class="testimonial-content">
@@ -224,26 +287,53 @@
 
           <ul>
             <li class="paragraph">
-              <img src="./img/icones/lista.svg" alt="check" /> Cinco trocas por
-              ano
+              <img
+                src="./img/icones/lista.svg"
+                alt="check"
+                width="13"
+                height="9"
+              />
+              Cinco trocas por ano
             </li>
             <li class="paragraph">
-              <img src="./img/icones/lista.svg" alt="check" />Assistência
-              técnica especial
+              <img
+                src="./img/icones/lista.svg"
+                alt="check"
+                width="13"
+                height="9"
+              />Assistência técnica especial
             </li>
             <li class="paragraph">
-              <img src="./img/icones/lista.svg" alt="check" />Suporte 24h
+              <img
+                src="./img/icones/lista.svg"
+                alt="check"
+                width="13"
+                height="9"
+              />Suporte 24h
             </li>
             <li class="paragraph">
-              <img src="./img/icones/lista.svg" alt="check" />Cobertura nacional
+              <img
+                src="./img/icones/lista.svg"
+                alt="check"
+                width="13"
+                height="9"
+              />Cobertura nacional
             </li>
             <li class="paragraph">
-              <img src="./img/icones/lista.svg" alt="check" />Desconto em
-              parceiros
+              <img
+                src="./img/icones/lista.svg"
+                alt="check"
+                width="13"
+                height="9"
+              />Desconto em parceiros
             </li>
             <li class="paragraph">
-              <img src="./img/icones/lista.svg" alt="check" />Acesso ao clube
-              Bikcraft
+              <img
+                src="./img/icones/lista.svg"
+                alt="check"
+                width="13"
+                height="9"
+              />Acesso ao clube Bikcraft
             </li>
           </ul>
           <a class="button" href="./budget.html">Inscreva-se</a>
@@ -256,19 +346,37 @@
 
           <ul>
             <li class="paragraph">
-              <img src="./img/icones/lista-silver.svg" alt="check" />Duas trocas
-              por ano
+              <img
+                src="./img/icones/lista-silver.svg"
+                alt="check"
+                width="13"
+                height="9"
+              />Duas trocas por ano
             </li>
             <li class="paragraph">
-              <img src="./img/icones/lista-silver.svg" alt="check" />Assistência
-              técnica
+              <img
+                src="./img/icones/lista-silver.svg"
+                alt="check"
+                width="13"
+                height="9"
+              />Assistência técnica
             </li>
             <li class="paragraph">
-              <img src="./img/icones/lista-silver.svg" alt="check" /> 08h às 18h
+              <img
+                src="./img/icones/lista-silver.svg"
+                alt="check"
+                width="13"
+                height="9"
+              />
+              08h às 18h
             </li>
             <li class="paragraph">
-              <img src="./img/icones/lista-silver.svg" alt="check" />Cobertura
-              estadual
+              <img
+                src="./img/icones/lista-silver.svg"
+                alt="check"
+                width="13"
+                height="9"
+              />Cobertura estadual
             </li>
           </ul>
           <a class="button secondary" href="./budget.html">Inscreva-se</a>
@@ -279,7 +387,12 @@
     <footer class="footer-bg">
       <div class="footer container">
         <div class="footer-col-1">
-          <img src="./img/bikcraft.svg" alt="Logo do bikcraft" />
+          <img
+            src="./img/bikcraft.svg"
+            alt="Logo do bikcraft"
+            width="136"
+            height="32"
+          />
           <p class="paragraph-2 color-gray">
             Bikcraft <time id="year"></time> © Alguns direitos reservados.
           </p>
@@ -320,19 +433,34 @@
       <div class="copy container">
         <div class="footer-social">
           <a href="#redesocial">
-            <img src="./img/redes/instagram-p.svg" alt="Instagram" />
+            <img
+              src="./img/redes/instagram-p.svg"
+              alt="Instagram"
+              width="36"
+              height="36"
+            />
           </a>
 
           <a href="#redesocial">
-            <img src="./img/redes/facebook-p.svg" alt="Facebook" />
+            <img
+              src="./img/redes/facebook-p.svg"
+              alt="Facebook"
+              width="36"
+              height="36"
+            />
           </a>
 
           <a href="#redesocial">
-            <img src="./img/redes/youtube-p.svg" alt="Youtube" />
+            <img
+              src="./img/redes/youtube-p.svg"
+              alt="Youtube"
+              width="36"
+              height="36"
+            />
           </a>
         </div>
         <button class="btn-scroll-to-top">
-          <img src="/img/icones/seta-abrir.svg" alt="" />
+          <img src="/img/icones/seta-abrir.svg" alt="" width="14" height="6" />
         </button>
       </div>
     </footer>

@@ -34,6 +34,7 @@
   height: 6rem;
   padding: 0 32px;
   text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
 }
 
 .header__menu__links a::after {
