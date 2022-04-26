@@ -49,17 +49,19 @@
   transition: 0.3s ease;
 }
 
-.header__menu__links a:hover:after {
+.header__menu__links a:hover::after,
+.header__menu__links a.active::after {
   width: 60%;
   left: 20%;
   background: var(--yellow-primary);
 }
 
-.header__menu__links a:hover {
+.header__menu__links a:hover,
+.header__menu__links a.active {
   color: var(--yellow-primary);
 }
 
-.btn-modal {
+.btn-mobile {
   visibility: hidden;
 }
 
@@ -115,7 +117,7 @@
     display: none;
   }
 
-  .btn-modal {
+  .btn-mobile {
     display: block;
     visibility: visible;
     padding: 0.6rem 0;
@@ -128,8 +130,8 @@
     margin-top: 0.75rem;
   }
 
-  .btn-modal::before,
-  .btn-modal::after {
+  .btn-mobile::before,
+  .btn-mobile::after {
     content: "";
     display: block;
     width: 25px;
@@ -140,12 +142,12 @@
     transition: 0.3s;
   }
 
-  .btn-modal.active::after {
+  .btn-mobile.active::after {
     transform: rotate(135deg);
     top: -10px;
   }
 
-  .btn-modal.active::before {
+  .btn-mobile.active::before {
     transform: rotate(-135deg);
     top: 2px;
   }
