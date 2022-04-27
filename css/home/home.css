@@ -102,7 +102,7 @@
   }
 }
 
-.slide h4 {
+.slide h2 {
   display: flex;
   align-items: center;
   gap: 3rem;
@@ -111,8 +111,8 @@
   height: 15rem;
 }
 
-.slide h4::before,
-.slide h4::after {
+.slide h2::before,
+.slide h2::after {
   content: "";
   display: inline-block;
   width: 1.75rem;
@@ -121,12 +121,12 @@
   background: var(--yellow-gradient);
 }
 
-.slide h4::after {
+.slide h2::after {
   animation: animate 0.6s ease-out alternate-reverse infinite;
   animation-delay: 0.3s;
 }
 
-.slide h4::before {
+.slide h2::before {
   animation: animate 0.6s ease-out alternate-reverse infinite;
 }
 
