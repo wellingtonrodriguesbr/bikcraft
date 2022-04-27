@@ -44,10 +44,9 @@
 
 .eletric {
   position: absolute;
-  top: 38px;
+  top: 32px;
   left: 20px;
   transform: translate(-50%, -50%);
-  max-width: 128px;
 }
 
 .picture figure {
@@ -58,7 +57,7 @@
   position: absolute;
   top: -30px;
   transform: translate(-50%);
-  max-width: 128px;
+  width: 118px;
   left: 20px;
 }
 
