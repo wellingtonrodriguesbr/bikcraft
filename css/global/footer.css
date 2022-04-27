@@ -31,16 +31,16 @@
 
 .newsletter-container form input {
   padding: 16px;
-  border: 1px solid var(--gray-secondary);
-  color: var(--gray-secondary);
+  border: 1px solid transparent;
+  color: var(--black-secondary);
   width: 300px;
   border-radius: 4px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .newsletter-container form input:focus {
   outline: none;
-  border: 1px solid var(--gray-secondary);
+  border-color: var(--gray-secondary);
 }
 
 .newsletter-container form button {
