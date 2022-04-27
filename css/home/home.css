@@ -12,7 +12,7 @@
   right: 0;
   top: 50%;
   width: 100px;
-  height: 300px;
+  height: 100px;
   border-radius: 50%;
   background-color: var(--gray-primary);
   filter: blur(400px);
@@ -106,15 +106,8 @@
   display: flex;
   align-items: center;
   gap: 3rem;
-  background: -webkit-linear-gradient(
-    var(--gray-secondary),
-    var(--black-primary)
-  );
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -o-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 7rem;
+  color: var(--black-primary);
+  font-size: 9rem;
   height: 15rem;
 }
 
@@ -122,8 +115,8 @@
 .slide h4::after {
   content: "";
   display: inline-block;
-  width: 2rem;
-  height: 2rem;
+  width: 1.75rem;
+  height: 1.75rem;
   border-radius: 50%;
   background: var(--yellow-gradient);
 }
@@ -204,7 +197,7 @@
       transform: translateY(0);
     }
     100% {
-      transform: translateY(-40px);
+      transform: translateY(-30px);
     }
   }
 }

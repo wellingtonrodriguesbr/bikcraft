@@ -1,8 +1,10 @@
 .footer-bg {
   background-color: var(--black-primary);
+  z-index: -1;
 }
 
 .footer {
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding: 60px 1.25rem;
@@ -12,14 +14,13 @@
   margin-top: 0.75rem;
 }
 
-.footer-col-1 p {
-  margin-top: 1.5rem;
+.footer-col-1 img {
+  margin-bottom: 24px;
 }
 
 .footer li {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   transition: 0.3s ease;
-  font-size: 20px;
 }
 
 .footer li a {
@@ -30,17 +31,21 @@
   color: var(--yellow-primary);
 }
 
-.footer h3,
-ul,
-li,
-a,
-p {
+.footer h4 {
   color: var(--white-primary);
 }
 
-.footer-contact h3,
-.footer-information h3 {
-  margin-bottom: 32px;
+.footer ul,
+li,
+a,
+p {
+  color: var(--gray-primary);
+}
+
+.footer-contact h4,
+.footer-information h4,
+.footer-products h4 {
+  margin-bottom: 24px;
 }
 
 .footer-contact ul {
@@ -102,6 +107,18 @@ p {
     display: none;
   }
 
+  .footer-col-1 {
+    border: none;
+  }
+
+  .footer-col-1 p {
+    padding: 0;
+  }
+
+  .footer-contact ul {
+    margin-bottom: 1rem;
+  }
+
   .footer-text-bg {
     font-size: 4rem;
     top: 80%;
@@ -114,10 +131,6 @@ p {
 
   .footer p {
     margin-bottom: 32px;
-  }
-
-  .footer-contact h3 {
-    margin-top: 40px;
   }
 }
 
