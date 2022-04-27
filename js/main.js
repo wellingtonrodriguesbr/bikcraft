@@ -49,6 +49,23 @@ function activeQuestion(e) {
   question.setAttribute("aria-expanded", active);
 }
 
+// Gallery bikes
+const galleryBikes = document.querySelectorAll(".bike-images img");
+const galleryContainer = document.querySelector(".bike-images");
+
+function galleryBikesEvents(img) {
+  img.addEventListener("click", changeImage);
+}
+
+function changeImage(e) {
+  const img = e.currentTarget;
+  const media = matchMedia("(max-width: 820px)").matches;
+
+  media ? galleryContainer.prepend(img) : null;
+}
+
+galleryBikes.forEach(galleryBikesEvents);
+
 // add events
 links.forEach(activeLink);
 btnMobile.addEventListener("click", toggleMenuMobile);

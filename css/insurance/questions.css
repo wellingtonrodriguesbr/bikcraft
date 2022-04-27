@@ -53,16 +53,13 @@
   transform: rotate(180deg);
 }
 
-.questions dd {
+.js .questions dd {
   display: none;
-}
-
-.questions dd.active {
-  display: block;
-}
-
-.questions dd {
   padding-left: 20px;
   max-width: 90ch;
   margin-top: 12px;
+}
+
+.js .questions dd.active {
+  display: block;
 }
