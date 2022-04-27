@@ -60,7 +60,7 @@
 #home .footer {
   display: flex;
   justify-content: space-between;
-  padding: 20rem 1.25rem 2rem 1.25rem;
+  padding: 15rem 1.25rem 2rem 1.25rem;
 }
 
 .footer {
@@ -108,7 +108,7 @@ p {
 }
 
 .footer-contact ul {
-  margin-bottom: 32px;
+  margin-bottom: 4rem;
 }
 
 .footer-social {
