@@ -44,20 +44,20 @@
 
 .eletric {
   position: absolute;
-  top: 32px;
+  top: 48px;
   left: 20px;
   transform: translate(-50%, -50%);
 }
 
 .picture figure {
-  background-color: #ffbb0092;
+  background-color: #ffbb0090;
   border: 2px solid #ffbb0098;
   border-radius: 50%;
   padding: 10px;
   position: absolute;
   top: -30px;
   transform: translate(-50%);
-  width: 118px;
+  width: 148px;
   left: 20px;
 }
 
