@@ -7,7 +7,7 @@
 }
 
 .insurance {
-  padding: 60px 1.25rem 120px 1.25rem;
+  padding: 60px 1.25rem 16rem 1.25rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;

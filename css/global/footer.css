@@ -1,13 +1,72 @@
 .footer-bg {
   background-color: var(--black-primary);
-  z-index: -1;
+  position: relative;
+}
+
+.newsletter {
+  padding: 3rem 1rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--yellow-gradient);
+  border-radius: 4px;
+}
+
+.newsletter-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 4rem;
+}
+
+.news-text p {
+  letter-spacing: 1.3px;
+  text-transform: lowercase;
+}
+
+.newsletter-container form {
+  width: 100%;
+}
+
+.newsletter-container form input {
+  padding: 16px;
+  border: 1px solid var(--gray-secondary);
+  color: var(--gray-secondary);
+  width: 300px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.newsletter-container form input:focus {
+  outline: none;
+  border: 1px solid var(--gray-secondary);
+}
+
+.newsletter-container form button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 1rem;
+  background-color: var(--black-secondary);
+  color: var(--white-primary);
+  border-radius: 4px;
+  cursor: pointer;
+  width: 300px;
+}
+
+#home .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rem 1.25rem 2rem 1.25rem;
 }
 
 .footer {
-  position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 60px 1.25rem;
+  padding: 80px 1.25rem;
 }
 
 .footer-col-1 {
@@ -124,13 +183,28 @@ p {
     top: 80%;
   }
 
-  .footer {
+  #home .footer {
     grid-template-columns: 1fr 1fr;
-    padding: 0 1.25rem;
+    padding: 15rem 1.25rem 2rem 1.25rem;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 1.25rem;
   }
 
   .footer p {
     margin-bottom: 32px;
+  }
+
+  .newsletter {
+    padding: 3rem 0;
+  }
+
+  .newsletter-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }
 
@@ -138,7 +212,6 @@ p {
   .footer {
     flex-direction: column-reverse;
     gap: 40px;
-    padding: 40px 20px;
   }
 
   .copy {
