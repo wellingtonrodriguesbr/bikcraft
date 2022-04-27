@@ -38,6 +38,42 @@
   padding: 60px 0 0 0;
 }
 
+.picture {
+  position: relative;
+}
+
+.eletric {
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  transform: translate(-50%, -50%);
+  max-width: 110px;
+}
+
+.picture figure {
+  background-color: var(--yellow-secondary);
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  top: -30px;
+  transform: translate(-50%);
+  max-width: 110px;
+  left: 20px;
+}
+
+.picture figure img {
+  animation: 24s rotation linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .main__content__text {
   align-self: center;
   padding-bottom: 200px;
@@ -133,9 +169,11 @@
 @keyframes animate {
   0% {
     transform: translateY(0);
+    box-shadow: none;
   }
   100% {
     transform: translateY(-70px);
+    box-shadow: 0 100px 40px rgba(0, 0, 0, 0.7);
   }
 }
 
@@ -147,6 +185,11 @@
 
   .slide {
     height: 7rem;
+  }
+
+  .eletric,
+  .picture figure {
+    display: none;
   }
 
   .slide h2 {
@@ -195,9 +238,11 @@
   @keyframes animate {
     0% {
       transform: translateY(0);
+      box-shadow: 0;
     }
     100% {
       transform: translateY(-30px);
+      box-shadow: 0 100px 40px rgba(0, 0, 0, 0.7);
     }
   }
 }
