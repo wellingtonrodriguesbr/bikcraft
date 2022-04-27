@@ -24,7 +24,9 @@
   top: 4rem;
   left: 1rem;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
-  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
