@@ -22,11 +22,6 @@
   gap: 4rem;
 }
 
-.news-text p {
-  letter-spacing: 1.3px;
-  text-transform: lowercase;
-}
-
 .newsletter-container form {
   width: 300px;
 }
@@ -40,6 +35,11 @@
   width: 100%;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-container form input::placeholder {
+  color: rgb(102, 79, 2);
+  opacity: 0.6;
 }
 
 .newsletter-container form input:focus {

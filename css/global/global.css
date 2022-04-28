@@ -47,6 +47,11 @@ button {
   border: none;
 }
 
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.2;
+}
+
 .bg-title {
   background-color: var(--black-secondary);
   padding: 3rem 0 1rem 0;
