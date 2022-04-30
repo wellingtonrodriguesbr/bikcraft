@@ -63,3 +63,9 @@
 .js .questions dd.active {
   display: block;
 }
+
+@media (max-width: 820px) {
+  .questions button {
+    font-size: 1rem;
+  }
+}

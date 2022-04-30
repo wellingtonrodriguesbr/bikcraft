@@ -64,8 +64,8 @@
 }
 
 .newsletter-container form button:hover {
-  background-color: var(--black-primary);
-  border-color: var(--black-primary);
+  background-color: var(--gray-secondary);
+  border-color: var(--gray-secondary);
 }
 
 #home .footer {
