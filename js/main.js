@@ -66,6 +66,18 @@ function changeImage(e) {
 
 galleryBikes.forEach(galleryBikesEvents);
 
+// add activelink items budget
+const params = new URLSearchParams(location.search);
+
+function activeProduct(params) {
+  const el = document.getElementById(params);
+  if (el) {
+    el.checked = true;
+  }
+}
+
+params.forEach(activeProduct);
+
 // add events
 links.forEach(activeLink);
 btnMobile.addEventListener("click", toggleMenuMobile);
